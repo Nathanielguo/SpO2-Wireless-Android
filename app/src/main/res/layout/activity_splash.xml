@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/splash"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/无线血氧双波监测"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:text="无线血氧双波监测"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/无线血氧双波监测"
+        android:layout_centerInParent="true"
+        android:text="V1.0"
+        android:textColor="#000000"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200sp"
+        android:layout_below="@id/无线血氧双波监测"
+        android:layout_centerInParent="true"
+        android:text="（温馨提示：请先打开WiFi并连接硬件）"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270sp"
+        android:layout_below="@id/无线血氧双波监测"
+        android:layout_centerInParent="true"
+        android:text="Designed by Nathaniel Guo"
+        android:textSize="8sp"/>
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/view03"
+    >
+
+    <TextView
+        android:text="监测"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80dp"
+        android:id="@+id/监测"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+    <com.example.natha.myapplication000.SpO2
+        android:id="@+id/ECGView03"
+        android:layout_width="wrap_content"
+        android:layout_height="282px"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="60dp" />
+
+    <com.example.natha.myapplication000.SpO2
+        android:id="@+id/ECGView04"
+        android:layout_width="wrap_content"
+        android:layout_height="285px"
+        android:layout_marginTop="260dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+        android:text="直流分量"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="— 660nm "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="180dp"
+        android:textColor="#ff0033"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="— 940nm"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="240dp"
+        android:textColor="#0066cc" />
+
+    <com.example.natha.myapplication000.SpO2
+        android:id="@+id/ECGView05"
+        android:layout_width="wrap_content"
+        android:layout_height="285px"
+        android:layout_marginTop="400dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"/>
+
+    <com.example.natha.myapplication000.SpO2
+        android:id="@+id/ECGView02"
+        android:layout_width="wrap_content"
+        android:layout_height="285px"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="100dp"
+        android:text="交流分量"/>
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="— 660nm "
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="180dp"
+        android:textColor="#ff0033"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="— 940nm"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="240dp"
+            android:textColor="#0066cc" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="235dp"
+            android:text="开始"/>
+
+</RelativeLayout>
