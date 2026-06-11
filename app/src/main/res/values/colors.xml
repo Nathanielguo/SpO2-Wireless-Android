@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主品牌色：医疗科技蓝绿 -->
+    <color name="colorPrimary">#0F6E56</color>
+    <color name="colorPrimaryDark">#085041</color>
+    <color name="colorAccent">#185FA5</color>
+
+    <!-- 通用界面色 -->
+    <color name="colorBackground">#F4F6F5</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorTextPrimary">#1F2A28</color>
+    <color name="colorTextSecondary">#6F7B79</color>
+    <color name="colorDivider">#E1E6E4</color>
+
+    <!-- 状态色 -->
+    <color name="colorConnected">#3B8B5E</color>
+    <color name="colorDisconnected">#C0392B</color>
+    <color name="colorConnecting">#D68910</color>
+
+    <!-- 波形通道颜色：660nm（红光）/ 940nm（近红外） -->
+    <color name="colorWave660">#E2433C</color>
+    <color name="colorWave940">#1D6FB8</color>
+    <color name="colorWaveGrid">#D6DEDC</color>
+</resources>

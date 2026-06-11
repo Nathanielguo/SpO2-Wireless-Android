@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_title"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/home_subtitle"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btn1"
+        style="@style/PrimaryButton"
+        android:layout_marginBottom="16dp"
+        android:text="@string/btn_connect" />
+
+    <Button
+        android:id="@+id/btn2"
+        style="@style/PrimaryButton"
+        android:layout_marginBottom="16dp"
+        android:text="@string/btn_monitor" />
+
+    <Button
+        android:id="@+id/btn3"
+        style="@style/SecondaryButton"
+        android:text="@string/btn_about" />
+
+</LinearLayout>

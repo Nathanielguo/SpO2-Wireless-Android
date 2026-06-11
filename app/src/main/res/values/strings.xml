@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">无线血氧饱和度监测</string>
+
+    <!-- 首页 -->
+    <string name="home_title">无线血氧双波监测</string>
+    <string name="home_subtitle">SpO2 Wireless Dual-Wavelength Monitor</string>
+    <string name="btn_connect">无线连接</string>
+    <string name="btn_monitor">开始监测</string>
+    <string name="btn_about">关于</string>
+
+    <!-- 连接页 -->
+    <string name="connect_title">无线连接</string>
+    <string name="label_ip">设备 IP 地址</string>
+    <string name="label_port">端口号</string>
+    <string name="hint_ip">例如：192.168.4.1</string>
+    <string name="hint_port">例如：8080</string>
+    <string name="btn_confirm">确认</string>
+    <string name="btn_exit">退出</string>
+    <string name="error_ip_empty">请输入 IP 地址</string>
+    <string name="error_ip_invalid">IP 地址格式不正确</string>
+    <string name="error_port_empty">请输入端口号</string>
+    <string name="error_port_invalid">端口号需为 1-65535 之间的数字</string>
+    <string name="exit_title">退出程序</string>
+    <string name="exit_message">是否退出程序？</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+
+    <!-- 监测页 -->
+    <string name="monitor_title">实时监测</string>
+    <string name="status_disconnected">未连接</string>
+    <string name="status_connecting">连接中…</string>
+    <string name="status_connected">已连接</string>
+    <string name="status_error">连接失败</string>
+    <string name="btn_start">开始</string>
+    <string name="btn_stop">停止</string>
+    <string name="label_dc">直流分量 (DC)</string>
+    <string name="label_ac">交流分量 (AC)</string>
+    <string name="label_660">660nm</string>
+    <string name="label_940">940nm</string>
+
+    <!-- 关于页 -->
+    <string name="about_title">关于</string>
+    <string name="about_intro">这是一款通过 WiFi 无线传输的血氧双波监测软件。</string>
+    <string name="about_steps_title">操作方法：</string>
+    <string name="about_step1">1. 首先开启硬件 SpO2 监测设备，手机打开 WiFi 搜索 “WiFi_SpO2” 输入密码并连接；</string>
+    <string name="about_step2">2. 然后进入软件，点击【无线连接】输入正确的 IP 和端口号，连接 WiFi 通讯；</string>
+    <string name="about_step3">3. 返回首页，点击【开始监测】，即可进入页面显示实时血氧双波。</string>
+    <string name="about_version">版本 1.0</string>
+
+    <!-- 闪屏 -->
+    <string name="splash_title">无线血氧双波监测</string>
+    <string name="splash_version">V1.0</string>
+    <string name="splash_tip">温馨提示：请先打开 WiFi 并连接硬件</string>
+    <string name="splash_author">Designed by Nathaniel Guo</string>
+</resources>
